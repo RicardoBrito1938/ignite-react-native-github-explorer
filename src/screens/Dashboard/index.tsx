@@ -28,8 +28,8 @@ export function Dashboard() {
 
   function handleAddRepository() {
     addRepository(inputText);
-    setInputText("");
     inputRef.current?.blur();
+    setInputText("");
   }
 
   function handleRepositoryPageNavigation(id: number) {
