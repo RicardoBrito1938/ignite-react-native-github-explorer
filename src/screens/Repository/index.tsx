@@ -47,7 +47,7 @@ export function Repository() {
           <OwnerAvatar source={{ uri: repository.owner.avatar_url }} />
 
           <TextGroup>
-            <TitleAnimation>{(repository.full_name = "")}</TitleAnimation>
+            <TitleAnimation>{repository.full_name}</TitleAnimation>
 
             <Description numberOfLines={2}>
               {repository.description}
